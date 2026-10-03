@@ -1,0 +1,13 @@
+Security and isolation are fundamental principles of this project.
+
+The following precautions are observed:
+
+Both virtual machines are configured to use a dedicated Internal Network.
+Testing is restricted to systems owned by the researcher or explicitly authorized for assessment.
+No third-party systems are included in the testing scope.
+Virtual machine snapshots are recommended before conducting potentially disruptive experiments.
+Sensitive information is excluded from public repository files.
+Operating systems and software are obtained from official sources.
+Lab configurations are reviewed before introducing additional network connectivity.
+
+Important: An isolated virtual network reduces exposure but does not replace responsible security practices. Network adapters, shared folders, shared clipboard, USB passthrough, and other integration features should be reviewed before performing potentially risky experiments.
