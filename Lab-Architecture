@@ -1,0 +1,25 @@
+🏗️ Lab Architecture
+
+The environment follows a simple two-machine architecture.
+
+                 CYBERSECURITY HOMELAB
+              ===========================
+
+                 Oracle VM VirtualBox
+                         |
+                  Internal Network
+                         |
+             -------------------------
+             |                       |
+             |                       |
+      ATTACKER MACHINE         TARGET MACHINE
+             |                       |
+        Linux OS                Windows OS
+             |                       |
+      Security Tools          Target Services
+             |                       |
+      Network Analysis        Security Testing
+             |                       |
+             -------------------------
+                         |
+                  Isolated Lab
