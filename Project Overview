@@ -1,0 +1,12 @@
+📌 Project Overview
+
+This project demonstrates the design and implementation of a small-scale cybersecurity homelab using virtualization technology.
+
+The lab consists of two virtual machines:
+
+Attacker Machine: A Linux-based system used to perform authorized security assessments, network reconnaissance, and penetration-testing exercises.
+Target Machine: A Windows-based system used to study system security, network exposure, vulnerabilities, and defensive mechanisms.
+
+Both machines are deployed in Oracle VM VirtualBox and connected through an Internal Network to establish an isolated communication environment.
+
+The primary objective is to understand how security assessments are conducted in practice, how systems communicate over networks, and how defensive controls can be evaluated in a controlled environment.
