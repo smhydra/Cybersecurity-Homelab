@@ -1,0 +1,51 @@
+🔧 Lab Setup
+Step 1: Install Virtualization Software
+
+Download and install Oracle VM VirtualBox from its official website:
+
+https://www.virtualbox.org/
+
+VirtualBox provides the virtualization platform required to create and manage the lab machines.
+
+Step 2: Obtain Operating Systems
+
+The operating systems used in this project were obtained from their respective official sources.
+
+Linux: https://www.kali.org/get-kali/
+Windows: https://www.microsoft.com/software-download/
+
+Ensure that operating system licensing requirements are followed when installing and using the virtual machines.
+
+Step 3: Create the Virtual Machines
+
+Create two separate virtual machines in VirtualBox:
+
+Linux — Attacker Machine
+Windows — Target Machine
+
+Allocate appropriate memory, processor resources, and virtual storage according to the available host hardware.
+
+Step 4: Configure the Internal Network
+
+Configure the network adapter of both virtual machines using the following settings:
+
+VirtualBox → Settings → Network → Adapter 1
+
+Enable Network Adapter: Yes
+Attached to: Internal Network
+Network Name: CyberLab
+
+Ensure that both machines use the same Internal Network name.
+
+This configuration allows the virtual machines to communicate within the designated virtual network while keeping the lab separate from the host's normal network connection.
+
+Step 5: Verify Network Connectivity
+
+After starting both virtual machines:
+
+Identify the IP address assigned to each machine.
+Verify that both systems belong to the intended virtual network.
+Test connectivity between the machines.
+Document the network configuration for future reference.
+
+Network configuration and connectivity should be verified before beginning any security assessment.
