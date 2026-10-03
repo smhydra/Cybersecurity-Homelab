@@ -1,0 +1,12 @@
+Virtual Machine Configuration
+------------------------------
+      Component	                   Configuration
+     -----------                  ---------------
+      Hypervisor                 	Oracle VM VirtualBox
+      Attacker OS                	Linux
+      Target OS	                  Windows
+      Network Mode              	Internal Network
+      Network Scope              	Local virtual environment
+      Communication              	Between lab virtual machines
+      Host Environment          	Local computer
+      Purpose	                    Cybersecurity research and education
